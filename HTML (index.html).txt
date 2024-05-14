@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rongxing Cao - Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Rongxing Cao</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      Hi, I'm Rongxing Cao, an aspiring IT professional with a passion for developing innovative software solutions. With a strong foundation in computer science and hands-on experience in web development and programming, I am eager to contribute to dynamic projects and grow my skills in the tech industry.
+    </p>
+  </section>
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Weather App</h3>
+      <p>
+        A web application that provides real-time weather information based on user location. Built with HTML, CSS, JavaScript, and the OpenWeatherMap API.
+      </p>
+      <a href="https://github.com/johndoe/weather-app">View on GitHub</a>
+    </div>
+    <div class="project">
+      <h3>Personal Blog</h3>
+      <p>
+        A responsive personal blog platform created using React.js and Node.js, with a MongoDB backend. Features user authentication, post creation, and comment functionality.
+      </p>
+      <a href="https://github.com/johndoe/personal-blog">View on GitHub</a>
+    </div>
+    <div class="project">
+      <h3>Task Manager</h3>
+      <p>
+        A task management application to help users keep track of their daily activities. Developed with Python and Flask, and integrated with a SQLite database.
+      </p>
+      <a href="https://github.com/johndoe/task-manager">View on GitHub</a>
+    </div>
+  </section>
+  <section id="contact">
+    <h2>Contact</h2>
+    <form action="mailto:aarnforever2601@gmail.com" method="post" enctype="text/plain">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <p>Or connect with me on <a href="https://www.linkedin.com/in/rong-xing-cao-b133b3160/">LinkedIn</a></p>
+  </section>
+  <footer>
+    <p>&copy; 2024 Rongxing Cao</p>
+  </footer>
+</body>
+</html>
